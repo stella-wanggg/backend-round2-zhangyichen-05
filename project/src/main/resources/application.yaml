@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: project
+users:
+  path: ./user_data/users.json
+  username:
+    max_length: 20
+  password:
+    min_length: 6
+    pattern: '^[a-zA-Z0-9_]+$'
